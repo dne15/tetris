@@ -2,24 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  margin: auto;
+  margin: 0;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
   font-family: 'Press Start 2P'; 
-  color: #050305;
 }
+
 
 .scoreAndBtn {
   text-align: center;
   padding-bottom: 3rem;
   font-family: 'Press Start 2P'; 
-}
+  width: 15%;
 
-h3 {
-  color: black;
 }
 
 button {
@@ -27,15 +25,17 @@ button {
   font-size: 16px;
   color: rgb(217, 204, 204);
   background-color: #201e1e;
-  border: 4px solid #64b9cf; 
+  border: 4px solid #44ff1f; 
   border-radius: 2rem;
   padding: 10px 20px;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
-  box-shadow: 0 0 10px #64b9cf, 0 0 20px #64b9cf, 0 0 30px #64b9cf; 
+  box-shadow: 0 0 10px #0fff1b, 0 0 20px #2de611, 0 0 30px #3dfb33; /* Glowing effect */
+  
 }
+
 .container {
     display: flex;
     background-color: white;
